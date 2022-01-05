@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const baseUrl = 'http://localhost:4000/api'
+const baseUrl = 'https://authorisation-system-by-petrmitin.vercel.app/api'
 
 const api = axios.create({
     withCredentials: true,
