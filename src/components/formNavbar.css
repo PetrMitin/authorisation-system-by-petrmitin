@@ -1,0 +1,12 @@
+span {
+    display: inline-block;
+    cursor: pointer;
+    font-size: .9em;
+    margin: 5px;
+    text-decoration: underline;
+}
+
+.form-navbar {
+    margin: auto;
+    width: 30%;
+}

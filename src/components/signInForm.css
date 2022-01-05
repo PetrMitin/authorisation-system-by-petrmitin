@@ -1,0 +1,31 @@
+label {
+    cursor: pointer;
+}
+
+button {
+    color: #3d2497;
+    border-radius: 20%;
+    margin-top: 1%;
+    cursor: pointer;
+}
+
+input {
+    border-radius: 20%;
+}
+
+.sign-in-form {
+    border-radius: 30%;
+    background-color: lightgray;
+    margin: auto;
+    margin-top: 5%;
+    width: 80%;
+    height: 50%;
+}
+
+.sign-in-button {
+    background-color: cyan;
+}
+
+.sign-up-button {
+    background-color: lightblue;
+}
