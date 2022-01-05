@@ -2,7 +2,7 @@ import api from './axiosInstance'
 import { setIsSignedInAction, setUserIdAction } from '../store/reducers'
 import axios from 'axios'
 
-const baseUrl = 'http://localhost:4000/api'//'https://authorisation-system-by-petrmitin.vercel.app/api'
+const baseUrl = 'https://authorisation-system-petr.herokuapp.com/api'//'https://authorisation-system-by-petrmitin.vercel.app/api'
 
 const signIn =  async (username, password, dispatch) => {
     try {
