@@ -27,10 +27,10 @@
     "web-vitals": "^1.1.2"
   },
   "scripts": {
-    "start": "cross-env NODE_ENV=production node ./server/server.js",
+    "start": "cross-env NODE_ENV=production CI=false node ./server/server.js",
     "dev-back-start": "cross-env NODE_ENV=development nodemon ./server/server.js",
     "dev-front-start": "cross-env NODE_ENV=development react-scripts start",
-    "build": "react-scripts build",
+    "build": "cross-env NODE_ENV=production CI=false react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
